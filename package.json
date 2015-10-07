@@ -1,0 +1,28 @@
+{
+    "name": "datatables.net-rowreorder-zf",
+    "version": "1.0.0",
+    "description": "RowReorder for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
+    "files": [
+        "css/rowReorder.foundation.css"
+    ],
+    "main": "./js/rowReorder.foundation.js",
+    "keywords": [
+        "row reordering",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Foundation"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-zf": ">=1.10.9",
+        "datatables.net-rowreorder": ">=1.0.0"
+    }
+}
