@@ -19,7 +19,7 @@ npm install datatables.net-rowreorder-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-rowreorder-zf' )( $ );
+require( 'datatables.net-rowreorder-zf' )( window, $ );
 ```
 
 ### bower
