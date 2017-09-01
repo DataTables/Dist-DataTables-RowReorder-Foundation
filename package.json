@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowreorder-zf",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "RowReorder for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/rowReorder.foundation.css"
@@ -23,7 +23,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-zf": "^1.10.15",
-        "datatables.net-rowreorder": "1.2.1"
+        "datatables.net-rowreorder": "1.2.2"
     },
     "repository": {
         "type": "git",
