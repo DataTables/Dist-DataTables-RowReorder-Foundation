@@ -3,7 +3,7 @@
     "version": "1.2.2",
     "description": "RowReorder for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
-        "css/rowReorder.foundation.css"
+        "css/**/*.css"
     ],
     "style": "css/rowReorder.foundation.css",
     "keywords": [
