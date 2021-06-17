@@ -4,14 +4,14 @@
     "main": "js/rowReorder.foundation.js",
     "style": "css/rowReorder.foundation.css",
     "types": "./types/rowReorder.foundation.d.ts",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "RowReorder",
- "Row Reordering",
+        "Row Reordering",
         "Foundation",
         "Datatables",
         "jQuery",
