@@ -10,7 +10,8 @@
         "css/rowReorder.foundation.min.css"
     ],
     "types": [
-        "types/rowReorder.foundation.d.ts"
+        "types/rowReorder.foundation.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/RowReorder",
     "last-tag": "1.2.8"
