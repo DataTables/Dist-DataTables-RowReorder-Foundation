@@ -28,10 +28,9 @@
 				require('datatables.net-zf')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.RowReorder ) {
 				require('datatables.net-rowreorder')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
