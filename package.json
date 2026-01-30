@@ -5,7 +5,7 @@
     "module": "js/rowReorder.foundation.mjs",
     "style": "css/rowReorder.foundation.css",
     "types": "./types/rowReorder.foundation.d.ts",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,7 +23,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowreorder": "1.5.0",
+        "datatables.net-rowreorder": "1.5.1",
         "datatables.net-zf": ">=1.11.0",
         "jquery": ">=1.7"
     },
