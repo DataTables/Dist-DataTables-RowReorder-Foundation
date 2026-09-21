@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowreorder-zf",
     "description": "RowReorder for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/rowReorder.foundation.js",
-    "module": "js/rowReorder.foundation.mjs",
-    "style": "css/rowReorder.foundation.css",
+    "main": "./js/rowReorder.foundation.js",
+    "module": "./js/rowReorder.foundation.mjs",
+    "style": "./css/rowReorder.foundation.css",
     "types": "./types/rowReorder.foundation.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowReorder",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowReorder.foundation.d.ts",
+            "import": "./js/rowReorder.foundation.mjs",
+            "default": "./js/rowReorder.foundation.mjs",
+            "require": "./js/rowReorder.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowReorder.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
